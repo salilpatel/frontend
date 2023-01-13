@@ -1,0 +1,68 @@
+.outerBox{
+ display: flex;
+ flex-direction: column;
+ flex-wrap: nowrap;   
+ position: relative;
+ 
+ width: 400px;
+ height: 300px;
+
+ border-radius: 10px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+ margin: 50px;
+}
+.outerBox:hover{
+    cursor: pointer;
+}
+
+.outerBox > div:nth-of-type(1){
+    width: 80px;
+    height: 30px;
+
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid rgb(3, 99, 99);
+    background-color: white;
+    
+    color: rgb(3, 99, 99);
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+
+    position: absolute;
+    top: -7.5%;
+    left: 35%;
+}
+
+
+.outerBox > div:nth-of-type(2){
+    width: 100%;
+    height: 160px;
+}
+
+.outerBox > div:nth-of-type(3){
+    width: 400px;
+    height: 100px;
+
+    background-color: rgb(5, 165, 165);
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: large;
+}
+
+.outerBox > div:nth-of-type(4){
+    width: 100%;
+    height: 40px;
+
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(5, 165, 165);
+}
+
+#imge{
+    width: 90%;
+    height: 80%;
+}
+

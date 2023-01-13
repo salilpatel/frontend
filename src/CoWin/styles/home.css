@@ -1,0 +1,12 @@
+.stepContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+div > p{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(5, 165, 165);
+}

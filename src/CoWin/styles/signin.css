@@ -1,0 +1,63 @@
+.outerContainer{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    width: 1000px;
+    height: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.formContainer{
+    background-color: white;
+    width: 500px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+}
+
+.imgContainer{
+    width: 500px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#image{
+    padding: 20px 0px 15px 20px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+#btn{
+    border: 2px solid rgb(3, 99, 99);
+    background-color: white;
+    color: rgb(3, 99, 99);
+    transition-duration: 0.4s;
+    position: absolute;
+    left: 27%;
+    top: 115%;
+}
+#btn:hover{
+    border: 2px solid rgb(3, 99, 99);
+    background-color: rgb(3, 99, 99);
+    color: white;
+}
+
+@media only screen and (max-width: 1200px){
+    .imgContainer{
+        visibility: hidden;
+    }
+    .outerContainer{
+        width: 500px;
+        position: relative;
+    }
+    
+    .formContainer{
+        background-color: white;
+        width: 500px;
+        position: absolute;
+        top: 20%;
+    }
+}

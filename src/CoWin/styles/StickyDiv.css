@@ -1,0 +1,50 @@
+
+.stickyDiv{
+    position: fixed;
+    right: 0;
+    margin-right: 5px;
+    margin-top: 14vh;
+    border: 2px solid rgb(5, 165, 165);
+    background-color: rgb(5, 165, 165);
+    color: white;
+    width: 120px;
+    padding: 15px 0px 15px 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 10;
+}
+.stickyDiv:hover,.dropDmenu:hover{
+    cursor: pointer;
+}
+.dropDmenu{
+    position: fixed;
+    right: 0;
+    margin-right: 50px;
+    margin-top: 22vh;
+    background-color: rgb(225, 242, 242);
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 10;
+}
+.dropDmenu > p {
+    text-decoration: none;
+    font-size: small;
+}
+
+@media only screen and (max-width: 1000px){
+    .dropDmenu > p {
+        text-decoration: none;
+        font-size: x-small;
+    }
+    .stickyDiv{
+        font-size: small;
+        width: 100px;
+        padding: 10px 0px 10px 40px;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+        z-index: 10;
+    }
+}
